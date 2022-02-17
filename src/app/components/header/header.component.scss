@@ -1,0 +1,29 @@
+.header {
+  background: var(--color-black);
+  color: var(--color-white);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.link {
+  text-decoration: none;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.btn-link {
+  background: transparent;
+  color: var(--color-white);
+  border: 0;
+  width: 70px;
+  cursor: pointer;
+}
+
+.space {
+  width: 70px;
+  height: 50px;
+}

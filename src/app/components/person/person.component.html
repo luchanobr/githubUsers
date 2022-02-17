@@ -1,0 +1,13 @@
+<article class="user" *ngIf="user$ | async as user; else loading">
+  <picture class="img-container">
+    <img class="avatar" [src]="user.avatar_url" alt=""
+  /></picture>
+  <div>
+    <h1 class="name">{{ user.name }}</h1>
+    <p class="location">{{ user.location }}</p>
+  </div>
+</article>
+
+<ng-template #loading>
+  <h1>Loading ...</h1>
+</ng-template>

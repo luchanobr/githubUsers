@@ -1,0 +1,12 @@
+<header class="header">
+  <button
+    type="button"
+    class="btn-link"
+    (click)="goBack()"
+    *ngIf="!isPersonPage()"
+  >
+    < Back
+  </button>
+  <a routerLink="/" class="link">Home</a>
+  <div *ngIf="!isPersonPage()" class="space"></div>
+</header>
